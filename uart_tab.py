@@ -1,4 +1,3 @@
-
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 from kivy.uix.button import Button
@@ -111,7 +110,23 @@ class UARTTab(BoxLayout):
                 self.connection_status.color = (0, 1, 0, 1)  # Verde
 
     def send_command(self, instance):
-        """Enviar un comando a través de UART."""
-        command = self.command_input.text
-        response = self.backend.send_command(command)
-        self.response_label.text = f"Respuesta: {response}" if response else "Error al enviar comando"
+        """Enviar un comando a través de UART usando send_command_with_response."""
+        command_input = self.command_input.text.strip()
+
+        try:
+            # Validar entrada del comando
+            if not command_input:
+                self.response_label.text = "Error: Comando vacío"
+                return
+
+            # Convertir el comando a un entero (si es necesario)
+            command_id = int(command_input, 16) if len(command_input) <= 2 else None
+            if command_id is None or not (0 <= command_id <= 0xFF):
+                self.response_label.text = "Error: Comando inválido (debe ser 1 byte)"
+                return
+
+            # Enviar el comando y obtener la respuesta
+            response = self.backend.send_command_with_response(command_id)
+            self.response_label.text = f"Respuesta: {response.hex()}" if response else "Error: Sin respuesta"
+        except ValueError:
+            self.response_label.text = "Error: Entrada no válida"
