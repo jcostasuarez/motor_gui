@@ -73,7 +73,7 @@ class UARTBackend:
             self.log_message(f"Error al enviar comando: {e}")
             return None
 
-    def send_command(self, command):
+    def send_command(self, command, size=4):
         """
         Enviar un comando a través de UART y obtener la respuesta.
         """
@@ -84,7 +84,7 @@ class UARTBackend:
         try:
             # Enviar comando
             self.serial_port.write(command.encode())
-            response = self.serial_port.readline().decode().strip()
+            response = self.serial_port.read_until(size=size)
             self.log_message(f"Enviado: {command} | Recibido: {response}")
             return response
         except Exception as e:

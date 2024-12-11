@@ -10,6 +10,7 @@ from kivy.clock import Clock
 
 from uart import UARTBackend
 from tachometer import Tachometer
+from constants import *
 
 
 # Paleta de colores basada en motor_control_ui.py
@@ -102,13 +103,13 @@ class MainTab(BoxLayout):
         self.tachometer.set_configured_value(value)
 
         if self.uart_backend.uart_connected:
-            self.uart_backend.send_command_with_response(2, rpm)  # SET_SPEED:X
+            self.uart_backend.send_command_with_response(CMD_SET_SPEED, rpm)  # SET_SPEED:X
         else:
             self.log_message("UART desconectada: no se puede enviar la velocidad.")
 
     def update_real_speed(self, dt):
         if self.uart_backend.uart_connected:
-            response = self.uart_backend.send_command_with_response(5)  # GET_SPEED
+            response = self.uart_backend.send_command_with_response(CMD_GET_SPEED)  # GET_SPEED
             if response:
                 try:
                     real_speed = int(response)
@@ -121,14 +122,14 @@ class MainTab(BoxLayout):
 
     def start_motor(self, instance):
         if self.uart_backend.uart_connected:
-            self.uart_backend.send_command_with_response(3, 1)  # MOTOR: ON
+            self.uart_backend.send_command_with_response(CMD_MOTOR_ON_OFF, 1)  # MOTOR: ON
             self.log_message("Motor iniciado")
         else:
             self.log_message("UART desconectada: no se puede iniciar el motor.")
 
     def stop_motor(self, instance):
         if self.uart_backend.uart_connected:
-            self.uart_backend.send_command_with_response(3, 0)  # MOTOR: OFF
+            self.uart_backend.send_command_with_response(CMD_MOTOR_ON_OFF, 0)  # MOTOR: OFF
             self.log_message("Motor detenido")
             self.speed_slider.value = 0  # Reset slider to 0
             self.update_speed(None, 0)  # Update speed to 0
@@ -144,7 +145,7 @@ class MainTab(BoxLayout):
                 "Trapezoidal": 3,
                 "FOC": 4
             }.get(mode, 0)
-            self.uart_backend.send_command_with_response(16, mode_value)  # SET_MODE:X
+            self.uart_backend.send_command_with_response(CMD_SET_MODE, mode_value)  # SET_MODE:X
             self.log_message(f"Modo configurado: {mode}")
         else:
             self.log_message("UART desconectada: no se puede configurar el modo.")
