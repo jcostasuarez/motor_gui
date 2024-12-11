@@ -1,0 +1,33 @@
+<MotorControlLayout>:
+    orientation: 'vertical'
+    Label:
+        id: status_label
+        text: 'Estado: Conexión SPI desconocida'
+    Label:
+        id: speed_label
+        text: 'Velocidad: 0'
+    Slider:
+        id: speed_slider
+        min: 0
+        max: 100
+        value: 0
+        on_value: root.set_speed(int(self.value))
+    BoxLayout:
+        orientation: 'horizontal'
+        Label:
+            id: tachometer_label
+            text: 'RPM: 0'
+    Button:
+        id: toggle_button
+        text: 'Encender'
+        on_press: root.toggle_motor()
+    Button:
+        text: 'Reconectar SPI'
+        on_press: root.reconnect_spi()
+    Button:
+        text: 'Recon'
+        on_press: root.recon()
+
+    Button:
+        text: 'Rec23on'
+        on_press: root.rec23on()
