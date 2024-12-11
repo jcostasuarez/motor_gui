@@ -19,10 +19,10 @@ SECONDARY_COLOR = (0.8, 0.8, 0.8, 1)  # Gris claro
 TEXT_COLOR = (1, 1, 1, 1)             # Blanco
 
 class MainTab(BoxLayout):
-    def __init__(self, terminal_callback, **kwargs):
+    def __init__(self, uart_backend, terminal_callback, **kwargs):
         super().__init__(orientation='vertical', spacing=10, padding=10, **kwargs)
 
-        self.uart_backend = UARTBackend(terminal_callback)
+        self.uart_backend = uart_backend
         self.terminal_callback = terminal_callback
         
         # Tacómetro

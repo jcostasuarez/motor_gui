@@ -6,6 +6,8 @@ from uart_tab import UARTTab
 from terminal_tab import TerminalTab
 from kivy.core.window import Window
 
+from uart import UARTBackend
+
 # Paleta de colores basada en la página de la UTN
 PRIMARY_COLOR = (0.0, 0.32, 0.63, 1)  # Azul UTN
 SECONDARY_COLOR = (0.8, 0.8, 0.8, 1)  # Gris claro
@@ -20,6 +22,8 @@ class MotorControlPanel(TabbedPanel):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
+        self.uart_backend = UARTBackend(self.append_terminal_message)
+
         # Desactivar la pestaña predeterminada
         self.do_default_tab = False
 
@@ -28,9 +32,10 @@ class MotorControlPanel(TabbedPanel):
         self.background_color = BACKGROUND_COLOR
 
         # Pestaña Control
+
         self.main_tab = TabbedPanelItem(text="Control")
         self.main_tab.background_color = PRIMARY_COLOR
-        self.main_tab_content = MainTab(terminal_callback=self.append_terminal_message)
+        self.main_tab_content = MainTab(uart_backend=self.uart_backend, terminal_callback=self.append_terminal_message)
         self.main_tab.add_widget(self.main_tab_content)
         self.add_widget(self.main_tab)
 
@@ -43,7 +48,7 @@ class MotorControlPanel(TabbedPanel):
 
         # Sustituye el SPI Tab con UART Tab
         self.uart_tab = TabbedPanelItem(text="UART")
-        self.uart_tab_content = UARTTab(terminal_callback=self.append_terminal_message)
+        self.uart_tab_content = UARTTab(self.uart_backend, terminal_callback=self.append_terminal_message)
         self.uart_tab.add_widget(self.uart_tab_content)
         self.add_widget(self.uart_tab)
 

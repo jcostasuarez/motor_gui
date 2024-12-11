@@ -10,11 +10,12 @@ from uart import UARTBackend
 PRIMARY_COLOR = (0.0, 0.32, 0.63, 1)  # Azul UTN
 TEXT_COLOR = (1, 1, 1, 1)             # Blanco
 
+
 class UARTTab(BoxLayout):
-    def __init__(self, terminal_callback, **kwargs):
+    def __init__(self, uart_backend, terminal_callback, **kwargs):
         super().__init__(orientation='vertical', spacing=10, padding=10, **kwargs)
 
-        self.backend = UARTBackend(terminal_callback)
+        self.backend = uart_backend
         self.terminal_callback = terminal_callback
 
         # Indicador de estado de la conexión
