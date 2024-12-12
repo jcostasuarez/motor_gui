@@ -1,5 +1,7 @@
 import serial
 from serial.tools import list_ports
+from time import sleep
+from constants import *
 
 class UARTBackend:
     def __init__(self, terminal_callback=None):
@@ -10,7 +12,11 @@ class UARTBackend:
     def update_uart_ports(self):
         """Obtener la lista de puertos UART disponibles."""
         try:
-            return [port.device for port in list_ports.comports()]
+            display_ports = []
+            for port in list_ports.comports():
+                if ("USB" in port.device or "ACM" in port.device):
+                    display_ports.append(port.device)
+            return display_ports
         except Exception as e:
             self.log_message(f"Error al actualizar puertos UART: {e}")
             return []
@@ -23,6 +29,7 @@ class UARTBackend:
             self.serial_port = serial.Serial(port, baudrate, timeout=1)
             self.uart_connected = True
             self.log_message("UART conectado correctamente.")
+
             return True
         except Exception as e:
             self.log_message(f"Error al conectar UART: {e}")
@@ -35,42 +42,89 @@ class UARTBackend:
         self.uart_connected = False
         self.log_message("UART desconectado.")
 
-    def send_command_with_response(self, command_id, value=None):
-        """
-        Enviar un comando y, si se proporciona, un valor asociado de 1 byte. 
-        Espera siempre una respuesta de 4 bytes.
-        - command_id: Identificador del comando (1 byte).
-        - value: Valor asociado al comando (1 byte), opcional.
-        """
+    def read_line(self):
+        if (self.serial_port):
+            return self.serial_port.readline()
+
+
+    def get_speed(self):
         if not self.uart_connected:
             self.log_message("Error: UART no está conectado.")
             return None
 
         try:
             # Construir el mensaje
-            message = bytearray([command_id])  # Comando en 1 byte
-            if value is not None:
-                if 0 <= value <= 0xFF:  # Asegurar que el valor sea de 1 byte
-                    message.append(value)
-                else:
-                    raise ValueError("El valor debe estar entre 0 y 255 (1 byte).")
+            message = bytearray([CMD_GET_SPEED])  # Comando en 1 byte
 
-            # Enviar el comando directamente
+            # Clean UART buffer
             self.serial_port.write(message)
-            self.log_message(f"Comando enviado: {message.hex()}")
+            self.serial_port.flush()
+            response = self.serial_port.read_until(size=1)
 
-            # Leer la respuesta (esperar siempre 4 bytes)
-            response = self.serial_port.read_until(size=4)
-            if len(response) != 4:
-                self.log_message(f"Respuesta incompleta: se esperaban 4 bytes, se recibieron {len(response)} bytes.")
-                return None
-
-            self.log_message(f"Respuesta recibida: {response.hex()}")
             return response
 
         except Exception as e:
             self.log_message(f"Error al enviar comando: {e}")
             return None
+
+    def set_speed(self, value):
+        if not self.uart_connected:
+            self.log_message("Error: UART no está conectado.")
+            return None
+
+        # Reverse duty, weird bug
+        message = bytearray([CMD_SET_SPEED])  # Comando en 1 byte
+        value = bytearray([value])
+
+        self.serial_port.write(message)
+        self.serial_port.flush()
+        sleep(0.1)
+        self.serial_port.write(value)
+        self.serial_port.flush()
+        response = self.serial_port.read_until(size=1)
+
+
+    def turn_on_motor(self, state:bool):
+        if not self.uart_connected:
+            self.log_message("Error: UART no está conectado.")
+            return None
+
+        message = bytearray([CMD_MOTOR_ON_OFF])  # Comando en 1 byte
+        value = bytearray([state])
+
+        self.serial_port.write(message)
+        self.serial_port.flush()
+        sleep(0.1)
+        self.serial_port.write(value)
+        self.serial_port.flush()
+        response = self.serial_port.read_until(size=1)
+
+    def send_generic_command(self, command):
+        if not self.uart_connected:
+            self.log_message("Error: UART no está conectado.")
+            return None
+
+        message = bytearray([command])  # Comando en 1 byte
+
+        self.serial_port.write(message)
+        self.serial_port.flush()
+        sleep(0.1)
+        response = self.serial_port.read_all()
+        return response
+
+    def get_current(self):
+        if not self.uart_connected:
+            self.log_message("Error: UART no está conectado.")
+            return None
+
+        message = bytearray([CMD_GET_C2])  # Comando en 1 byte
+
+        self.serial_port.write(message)
+        self.serial_port.flush()
+        sleep(0.1)
+        response = self.serial_port.read_all()
+        return response
+
 
     def log_message(self, message):
         """

@@ -12,19 +12,16 @@ from uart import UARTBackend
 from tachometer import Tachometer
 from constants import *
 
-
-# Paleta de colores basada en motor_control_ui.py
-PRIMARY_COLOR = (0.0, 0.32, 0.63, 1)  # Azul UTN
-SECONDARY_COLOR = (0.8, 0.8, 0.8, 1)  # Gris claro
-TEXT_COLOR = (1, 1, 1, 1)             # Blanco
-
 class MainTab(BoxLayout):
     def __init__(self, uart_backend, terminal_callback, **kwargs):
         super().__init__(orientation='vertical', spacing=10, padding=10, **kwargs)
 
         self.uart_backend = uart_backend
         self.terminal_callback = terminal_callback
-        
+        self.rpm = 1
+        self.last_real_speed = 0
+        self.current = 0
+
         # Tacómetro
         self.tachometer = Tachometer(size_hint=(1, 0.5))
         self.add_widget(self.tachometer)
@@ -43,31 +40,19 @@ class MainTab(BoxLayout):
         # Separador
         self.add_widget(Widget(size_hint_y=0.02))
 
-        # Selector de modo
-        mode_layout = BoxLayout(size_hint=(1, 0.1), orientation='horizontal', spacing=10)
-        mode_label = Label(text="Modo:", size_hint=(0.3, 1), color=PRIMARY_COLOR)
-        self.mode_selector = Spinner(
-            text="Normal",
-            values=("Normal", "Velocidad constante", "Torque constante", "Trapezoidal", "FOC"),
-            size_hint=(0.7, 1),
-            background_color=PRIMARY_COLOR,
-            color=TEXT_COLOR
-        )
-        self.mode_selector.bind(text=self.set_mode)
-        mode_layout.add_widget(mode_label)
-        mode_layout.add_widget(self.mode_selector)
-        self.add_widget(mode_layout)
+        # Control de velocidad
+        self.speed_slider = Slider(min=1, max=100, value=0, size_hint=(1, 0.2))
+        self.speed_slider.bind(value=self.update_speed)
+        self.add_widget(self.speed_slider)
+
+        self.speed_label = Label(text="Duty Deseado: 1%", size_hint=(1, 0.1), color=PRIMARY_COLOR)
+        self.add_widget(self.speed_label)
 
         # Separador
         self.add_widget(Widget(size_hint_y=0.02))
 
-        # Control de velocidad
-        self.speed_slider = Slider(min=0, max=100, value=0, size_hint=(1, 0.2))
-        self.speed_slider.bind(value=self.update_speed)
-        self.add_widget(self.speed_slider)
-
-        self.speed_label = Label(text="Velocidad: 0 RPM", size_hint=(1, 0.1), color=PRIMARY_COLOR)
-        self.add_widget(self.speed_label)
+        self.current_label = Label(text=f"Duty: {self.current}%", size_hint=(1, 0.1))
+        self.add_widget(self.current_label)
 
         # Separador
         self.add_widget(Widget(size_hint_y=0.02))
@@ -95,61 +80,55 @@ class MainTab(BoxLayout):
         self.add_widget(control_layout)
 
         # Iniciar actualización periódica del tacómetro
-        Clock.schedule_interval(self.update_real_speed, 0.1)
+        Clock.schedule_interval(self.update_real_speed, 2)
+
+
+    def get_uart_label(self):
+        return self.uart_status
 
     def update_speed(self, instance, value):
-        rpm = int(value)
-        self.speed_label.text = f"Velocidad: {rpm} RPM"
+        self.rpm = int(value)
+        self.speed_label.text = f"Duty Deseado: {self.rpm}%"
         self.tachometer.set_configured_value(value)
-
-        if self.uart_backend.uart_connected:
-            self.uart_backend.send_command_with_response(CMD_SET_SPEED, rpm)  # SET_SPEED:X
-        else:
-            self.log_message("UART desconectada: no se puede enviar la velocidad.")
 
     def update_real_speed(self, dt):
         if self.uart_backend.uart_connected:
-            response = self.uart_backend.send_command_with_response(CMD_GET_SPEED)  # GET_SPEED
+            response = self.uart_backend.get_speed()  # GET_SPEED
             if response:
                 try:
-                    real_speed = int(response)
+                    real_speed = response[0]
+                    print(real_speed)
                     self.tachometer.set_real_value(real_speed)
+                    self.last_real_speed = real_speed
                 except ValueError:
                     self.log_message("Error al interpretar la respuesta de GET_SPEED.")
+
+            self.uart_backend.set_speed(self.rpm)
+
+            self.current = self.uart_backend.get_current()
+            if (self.current != b''):
+                self.current_label.text = f"Duty: {float(int.from_bytes(self.current, byteorder='little'))/8}%"
+
         else:
             self.uart_status.text = "UART: Desconectado"
             self.uart_status.color = (1, 0, 0, 1)  # Rojo
 
+
     def start_motor(self, instance):
         if self.uart_backend.uart_connected:
-            self.uart_backend.send_command_with_response(CMD_MOTOR_ON_OFF, 1)  # MOTOR: ON
+            self.uart_backend.turn_on_motor(True)  # MOTOR: ON
             self.log_message("Motor iniciado")
         else:
             self.log_message("UART desconectada: no se puede iniciar el motor.")
 
     def stop_motor(self, instance):
         if self.uart_backend.uart_connected:
-            self.uart_backend.send_command_with_response(CMD_MOTOR_ON_OFF, 0)  # MOTOR: OFF
+            self.uart_backend.turn_on_motor(False)  # MOTOR: OFF
             self.log_message("Motor detenido")
             self.speed_slider.value = 0  # Reset slider to 0
             self.update_speed(None, 0)  # Update speed to 0
         else:
             self.log_message("UART desconectada: no se puede detener el motor.")
-
-    def set_mode(self, instance, mode):
-        if self.uart_backend.uart_connected:
-            mode_value = {
-                "Normal": 0,
-                "Velocidad constante": 1,
-                "Torque constante": 2,
-                "Trapezoidal": 3,
-                "FOC": 4
-            }.get(mode, 0)
-            self.uart_backend.send_command_with_response(CMD_SET_MODE, mode_value)  # SET_MODE:X
-            self.log_message(f"Modo configurado: {mode}")
-        else:
-            self.log_message("UART desconectada: no se puede configurar el modo.")
-
 
     def log_message(self, message):
         from datetime import datetime

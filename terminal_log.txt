@@ -1,923 +1,391 @@
-2024-12-08 03:06:57 - Motor detenido
-2024-12-08 03:07:05 - Motor detenido
-2024-12-08 03:07:06 - Motor iniciado
-2024-12-08 03:07:07 - Motor iniciado
-2024-12-08 03:07:07 - Motor iniciado
-2024-12-08 03:07:07 - Motor iniciado
-2024-12-08 03:09:18 - Motor detenido
-2024-12-08 03:09:19 - Motor detenido
-2024-12-08 03:09:20 - Motor detenido
-2024-12-08 03:10:13 - Motor detenido
-2024-12-08 03:10:23 - Motor detenido
-2024-12-08 03:10:24 - Motor detenido
-2024-12-08 03:10:24 - Motor detenido
-2024-12-08 03:10:24 - Motor detenido
-2024-12-08 03:10:25 - Motor iniciado
-2024-12-08 03:12:20 - Motor detenido
-2024-12-08 03:12:23 - Motor iniciado
-2024-12-08 03:12:26 - Motor detenido
-2024-12-08 03:12:27 - Motor iniciado
-2024-12-08 03:12:27 - Motor detenido
-2024-12-08 03:12:32 - Motor detenido
-2024-12-08 03:12:32 - Motor detenido
-2024-12-08 03:12:33 - Motor detenido
-2024-12-08 03:12:43 - Motor iniciado
-2024-12-08 03:12:46 - Motor detenido
-2024-12-08 03:17:44 - Error: Comando vacío.
-2024-12-08 03:36:27 - Motor detenido
-2024-12-08 03:36:28 - Motor iniciado
-2024-12-08 03:36:29 - Motor detenido
-2024-12-08 03:36:29 - Motor iniciado
-2024-12-08 03:36:30 - Motor detenido
-2024-12-08 03:36:31 - Motor iniciado
-2024-12-08 03:36:34 - Motor detenido
-2024-12-08 03:36:35 - Motor iniciado
-2024-12-08 03:38:44 - SPI conectado correctamente.
-2024-12-08 03:38:45 - SPI desconectado.
-2024-12-08 03:38:46 - SPI conectado correctamente.
-2024-12-08 03:38:47 - SPI desconectado.
-2024-12-08 03:38:49 - SPI conectado correctamente.
-2024-12-08 03:38:51 - SPI desconectado.
-2024-12-08 03:38:52 - SPI conectado correctamente.
-2024-12-08 03:40:25 - SPI desconectado.
-2024-12-08 03:40:26 - SPI conectado correctamente.
-2024-12-08 03:40:28 - SPI desconectado.
-2024-12-08 03:40:29 - SPI conectado correctamente.
-2024-12-08 03:40:29 - SPI desconectado.
-2024-12-08 03:40:29 - SPI conectado correctamente.
-2024-12-08 03:40:29 - SPI desconectado.
-2024-12-08 03:40:29 - SPI conectado correctamente.
-2024-12-08 03:40:30 - SPI desconectado.
-2024-12-08 03:41:21 - Motor detenido
-2024-12-08 03:41:22 - Motor iniciado
-2024-12-08 03:41:23 - Motor detenido
-2024-12-08 03:41:24 - Motor detenido
-2024-12-08 03:41:34 - Motor iniciado
-2024-12-08 03:41:35 - Motor iniciado
-2024-12-08 03:41:36 - Motor iniciado
-2024-12-08 03:41:36 - Motor iniciado
-2024-12-08 03:41:36 - Motor iniciado
-2024-12-08 03:41:41 - Motor iniciado
-2024-12-08 03:41:44 - Motor detenido
-2024-12-08 03:41:47 - Motor iniciado
-2024-12-08 03:41:50 - Motor iniciado
-2024-12-08 03:42:06 - Motor iniciado
-2024-12-08 03:42:49 - SPI conectado correctamente.
-2024-12-08 03:42:50 - SPI desconectado.
-2024-12-08 03:42:51 - SPI conectado correctamente.
-2024-12-08 03:42:52 - SPI desconectado.
-2024-12-08 03:42:53 - SPI conectado correctamente.
-2024-12-08 03:42:53 - SPI desconectado.
-2024-12-08 03:42:53 - SPI conectado correctamente.
-2024-12-08 03:42:53 - SPI desconectado.
-2024-12-08 03:46:08 - Motor detenido
-2024-12-08 03:46:11 - Motor detenido
-2024-12-08 03:46:18 - SPI conectado correctamente.
-2024-12-08 03:46:18 - SPI desconectado.
-2024-12-08 03:50:25 - Motor iniciado
-2024-12-08 03:50:26 - Motor detenido
-2024-12-08 04:16:11 - SPI conectado correctamente.
-2024-12-08 04:16:11 - SPI desconectado.
-2024-12-08 04:16:11 - SPI conectado correctamente.
-2024-12-08 04:16:11 - SPI desconectado.
-2024-12-08 04:16:12 - SPI conectado correctamente.
-2024-12-08 04:16:12 - SPI desconectado.
-2024-12-08 04:17:35 - SPI conectado correctamente.
-2024-12-08 04:17:55 - SPI desconectado.
-2024-12-08 04:17:56 - SPI conectado correctamente.
-2024-12-08 04:17:56 - SPI desconectado.
-2024-12-08 04:17:57 - SPI conectado correctamente.
-2024-12-08 04:22:33 - Error al conectar SPI: [Errno 2] No such file or directory
-2024-12-08 04:22:39 - Error al conectar SPI: [Errno 2] No such file or directory
-2024-12-08 04:22:40 - Error al conectar SPI: [Errno 2] No such file or directory
-2024-12-08 04:22:40 - Error al conectar SPI: [Errno 2] No such file or directory
-2024-12-08 04:22:41 - Error al conectar SPI: [Errno 2] No such file or directory
-2024-12-08 04:22:41 - Error al conectar SPI: [Errno 2] No such file or directory
-2024-12-08 04:22:41 - Error: SPI no está conectado.
-2024-12-08 04:22:42 - Error: SPI no está conectado.
-2024-12-08 04:22:42 - Error: SPI no está conectado.
-2024-12-08 04:22:42 - Error: SPI no está conectado.
-2024-12-08 04:22:43 - Error: SPI no está conectado.
-2024-12-08 04:22:47 - Error al conectar SPI: [Errno 2] No such file or directory
-2024-12-08 04:22:47 - Error al conectar SPI: [Errno 2] No such file or directory
-2024-12-08 04:22:48 - Error al conectar SPI: [Errno 2] No such file or directory
-2024-12-08 04:22:48 - Error al conectar SPI: [Errno 2] No such file or directory
-2024-12-08 04:22:48 - Error al conectar SPI: [Errno 2] No such file or directory
-2024-12-08 04:22:58 - Motor iniciado
-2024-12-08 04:28:17 - Motor iniciado
-2024-12-11 16:24:44 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:44 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:44 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:44 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:44 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:44 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:44 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:44 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:44 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:44 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:44 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:44 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:45 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:45 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:47 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:48 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:48 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:48 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:48 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:53 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:53 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:53 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:53 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:53 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:53 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:53 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:53 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:53 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:53 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:53 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:53 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:54 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:55 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:24:56 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:04 - UART desconectada: no se puede detener el motor.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:08 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:09 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:10 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:11 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:12 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:13 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:14 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:19 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:20 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:21 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:22 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:23 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:24 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:25 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:26 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 16:25:27 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:41 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:42 - UART desconectada: no se puede enviar la velocidad.
-2024-12-11 19:30:42 - UART desconectada: no se puede enviar la velocidad.
+2024-12-11 22:38:26 - UART desconectada: no se puede iniciar el motor.
+2024-12-11 22:38:29 - UART desconectada: no se puede iniciar el motor.
+2024-12-12 00:39:35 - UART desconectada: no se puede iniciar el motor.
+2024-12-12 00:39:38 - Motor iniciado
+2024-12-12 00:39:54 - Motor detenido
+2024-12-12 00:39:55 - Motor detenido
+2024-12-12 00:39:56 - Motor detenido
+2024-12-12 00:39:56 - Motor detenido
+2024-12-12 00:39:57 - Motor iniciado
+2024-12-12 00:39:57 - Motor iniciado
+2024-12-12 00:46:48 - Error al interpretar la respuesta de GET_SPEED.
+2024-12-12 00:52:04 - Motor iniciado
+2024-12-12 00:52:37 - Motor detenido
+2024-12-12 00:56:00 - Motor iniciado
+2024-12-12 00:56:30 - Motor iniciado
+2024-12-12 00:56:32 - Motor iniciado
+2024-12-12 00:56:33 - Motor iniciado
+2024-12-12 00:56:34 - Motor detenido
+2024-12-12 00:56:47 - Motor iniciado
+2024-12-12 01:19:54 - Motor iniciado
+2024-12-12 01:28:32 - Motor iniciado
+2024-12-12 01:34:43 - Motor iniciado
+2024-12-12 01:35:11 - Motor detenido
+2024-12-12 01:35:15 - Motor iniciado
+2024-12-12 01:35:35 - Motor iniciado
+2024-12-12 01:35:36 - Motor iniciado
+2024-12-12 01:35:36 - Motor iniciado
+2024-12-12 01:35:37 - Motor iniciado
+2024-12-12 01:35:37 - Motor iniciado
+2024-12-12 01:35:37 - Motor iniciado
+2024-12-12 01:35:37 - Motor iniciado
+2024-12-12 01:35:37 - Motor iniciado
+2024-12-12 01:35:37 - Motor iniciado
+2024-12-12 01:36:23 - Motor iniciado
+2024-12-12 01:36:25 - Motor iniciado
+2024-12-12 01:36:27 - Motor detenido
+2024-12-12 01:36:27 - Motor iniciado
+2024-12-12 01:36:28 - Motor detenido
+2024-12-12 01:37:12 - Motor iniciado
+2024-12-12 01:37:23 - Motor iniciado
+2024-12-12 01:37:30 - Motor iniciado
+2024-12-12 01:38:33 - Motor iniciado
+2024-12-12 01:38:45 - Motor iniciado
+2024-12-12 01:38:46 - Motor iniciado
+2024-12-12 01:38:47 - Motor detenido
+2024-12-12 01:38:53 - Motor detenido
+2024-12-12 01:38:58 - Motor detenido
+2024-12-12 01:39:25 - Motor iniciado
+2024-12-12 01:39:26 - Motor iniciado
+2024-12-12 01:39:27 - Motor iniciado
+2024-12-12 01:39:27 - Motor iniciado
+2024-12-12 01:39:27 - Motor iniciado
+2024-12-12 01:39:28 - Motor iniciado
+2024-12-12 01:39:28 - Motor iniciado
+2024-12-12 01:39:28 - Motor iniciado
+2024-12-12 01:39:28 - Motor iniciado
+2024-12-12 01:39:28 - Motor iniciado
+2024-12-12 01:39:29 - Motor iniciado
+2024-12-12 01:39:29 - Motor iniciado
+2024-12-12 01:39:29 - Motor iniciado
+2024-12-12 01:42:33 - Motor iniciado
+2024-12-12 01:42:37 - Motor iniciado
+2024-12-12 01:42:46 - Motor detenido
+2024-12-12 01:42:49 - Motor detenido
+2024-12-12 01:42:51 - Motor detenido
+2024-12-12 01:42:58 - Motor iniciado
+2024-12-12 01:43:01 - Motor iniciado
+2024-12-12 01:43:02 - Motor iniciado
+2024-12-12 01:43:02 - Motor iniciado
+2024-12-12 01:43:03 - Motor iniciado
+2024-12-12 01:43:03 - Motor iniciado
+2024-12-12 01:43:03 - Motor iniciado
+2024-12-12 01:43:03 - Motor detenido
+2024-12-12 01:43:04 - Motor detenido
+2024-12-12 01:43:05 - Motor detenido
+2024-12-12 01:43:06 - Motor detenido
+2024-12-12 01:43:07 - Motor detenido
+2024-12-12 01:43:08 - Motor detenido
+2024-12-12 01:43:10 - Motor iniciado
+2024-12-12 01:45:37 - Motor iniciado
+2024-12-12 01:45:40 - Motor iniciado
+2024-12-12 01:45:41 - Motor iniciado
+2024-12-12 01:45:41 - Motor iniciado
+2024-12-12 01:45:42 - Motor iniciado
+2024-12-12 01:45:42 - Motor iniciado
+2024-12-12 01:45:42 - Motor iniciado
+2024-12-12 01:45:42 - Motor iniciado
+2024-12-12 01:45:42 - Motor iniciado
+2024-12-12 01:45:43 - Motor iniciado
+2024-12-12 01:45:44 - Motor iniciado
+2024-12-12 01:45:44 - Motor iniciado
+2024-12-12 01:45:44 - Motor iniciado
+2024-12-12 01:45:44 - Motor iniciado
+2024-12-12 01:45:44 - Motor iniciado
+2024-12-12 01:45:45 - Motor iniciado
+2024-12-12 01:45:46 - Motor iniciado
+2024-12-12 01:45:46 - Motor iniciado
+2024-12-12 01:45:47 - Motor detenido
+2024-12-12 01:45:47 - Motor detenido
+2024-12-12 01:45:48 - Motor detenido
+2024-12-12 01:46:07 - Motor iniciado
+2024-12-12 01:46:08 - Motor iniciado
+2024-12-12 01:46:16 - Motor iniciado
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:46:59 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:47:02 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:47:02 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:47:02 - UART desconectada: no se puede enviar la velocidad.
+2024-12-12 01:48:01 - Motor iniciado
+2024-12-12 01:48:17 - Motor iniciado
+2024-12-12 01:49:01 - Motor iniciado
+2024-12-12 01:49:04 - Motor iniciado
+2024-12-12 01:49:07 - Motor iniciado
+2024-12-12 01:49:08 - Motor iniciado
+2024-12-12 01:49:11 - Motor iniciado
+2024-12-12 01:49:47 - Motor iniciado
+2024-12-12 01:49:48 - Motor iniciado
+2024-12-12 01:49:49 - Motor iniciado
+2024-12-12 01:49:49 - Motor iniciado
+2024-12-12 01:49:51 - Motor iniciado
+2024-12-12 01:49:52 - Motor iniciado
+2024-12-12 01:52:04 - Motor iniciado
+2024-12-12 01:52:24 - Motor iniciado
+2024-12-12 01:52:35 - Motor iniciado
+2024-12-12 01:54:24 - Motor iniciado
+2024-12-12 01:54:27 - Motor iniciado
+2024-12-12 01:54:28 - Motor detenido
+2024-12-12 01:54:29 - Motor iniciado
+2024-12-12 01:54:30 - Motor detenido
+2024-12-12 01:54:32 - Motor iniciado
+2024-12-12 01:54:38 - Motor iniciado
+2024-12-12 01:54:40 - Motor iniciado
+2024-12-12 01:54:42 - Motor iniciado
+2024-12-12 01:54:44 - Motor iniciado
+2024-12-12 01:54:46 - Motor detenido
+2024-12-12 01:54:47 - Motor detenido
+2024-12-12 01:54:48 - Motor detenido
+2024-12-12 01:54:49 - Motor detenido
+2024-12-12 01:55:48 - Motor iniciado
+2024-12-12 01:55:50 - Motor iniciado
+2024-12-12 01:55:52 - Motor iniciado
+2024-12-12 02:01:21 - Motor iniciado
+2024-12-12 02:01:57 - Motor iniciado
+2024-12-12 02:02:03 - Motor iniciado
+2024-12-12 02:02:07 - Motor detenido
+2024-12-12 02:02:08 - Motor detenido
+2024-12-12 02:05:13 - Motor iniciado
+2024-12-12 02:05:20 - Motor detenido
+2024-12-12 02:05:21 - Motor iniciado
+2024-12-12 02:05:22 - Motor detenido
+2024-12-12 02:05:24 - Motor iniciado
+2024-12-12 02:05:24 - Motor iniciado
+2024-12-12 02:06:33 - Motor iniciado
+2024-12-12 02:07:22 - Motor iniciado
+2024-12-12 02:07:30 - Motor iniciado
+2024-12-12 02:11:22 - Motor iniciado
+2024-12-12 02:11:28 - Motor iniciado
+2024-12-12 02:11:51 - Motor detenido
+2024-12-12 02:11:55 - Motor iniciado
+2024-12-12 02:12:45 - Motor iniciado
+2024-12-12 02:12:56 - Motor iniciado
+2024-12-12 02:12:57 - Motor iniciado
+2024-12-12 02:12:57 - Motor iniciado
+2024-12-12 02:17:21 - Motor iniciado
+2024-12-12 02:17:55 - Motor detenido
+2024-12-12 02:17:55 - Motor detenido
+2024-12-12 02:17:55 - Motor detenido
+2024-12-12 02:19:34 - Motor iniciado
+2024-12-12 02:19:36 - Motor iniciado
+2024-12-12 02:19:37 - Motor iniciado
+2024-12-12 02:19:39 - Motor iniciado
+2024-12-12 02:19:41 - Motor detenido
+2024-12-12 02:21:02 - Motor iniciado
+2024-12-12 02:27:44 - UART desconectada: no se puede iniciar el motor.
+2024-12-12 02:28:34 - Motor iniciado
+2024-12-12 02:28:35 - Motor detenido
+2024-12-12 02:28:35 - Motor iniciado
+2024-12-12 02:28:36 - Motor iniciado
+2024-12-12 02:28:43 - Motor iniciado
+2024-12-12 02:28:54 - Motor detenido
+2024-12-12 02:28:56 - Motor iniciado
+2024-12-12 02:31:10 - Motor detenido
+2024-12-12 02:36:32 - Motor iniciado
+2024-12-12 02:36:36 - Motor iniciado
+2024-12-12 02:36:38 - Motor detenido
+2024-12-12 02:37:29 - Motor iniciado
+2024-12-12 02:46:24 - Motor iniciado
+2024-12-12 02:59:20 - Motor detenido
+2024-12-12 15:27:31 - Motor iniciado
+2024-12-12 15:28:10 - Motor detenido
+2024-12-12 15:28:56 - Motor detenido
+2024-12-12 15:33:12 - Motor iniciado
+2024-12-12 15:33:35 - Motor detenido
+2024-12-12 15:33:35 - Motor detenido
+2024-12-12 15:33:35 - Motor iniciado
+2024-12-12 15:33:36 - Motor iniciado
+2024-12-12 15:34:11 - Motor iniciado
+2024-12-12 15:34:15 - Motor iniciado
+2024-12-12 15:34:18 - Motor iniciado
+2024-12-12 15:34:23 - Motor iniciado
+2024-12-12 15:34:25 - Motor iniciado
+2024-12-12 15:34:25 - Motor iniciado
+2024-12-12 15:34:28 - Motor iniciado
+2024-12-12 15:34:38 - Motor detenido
+2024-12-12 15:34:39 - Motor iniciado
+2024-12-12 15:34:42 - Motor iniciado
+2024-12-12 15:35:08 - Motor iniciado
+2024-12-12 15:37:28 - Motor iniciado
+2024-12-12 15:37:37 - Motor detenido
+2024-12-12 15:38:18 - Motor iniciado
+2024-12-12 15:38:28 - Motor iniciado
+2024-12-12 15:38:31 - Motor detenido
+2024-12-12 15:38:32 - Motor iniciado
+2024-12-12 15:38:34 - Motor iniciado
+2024-12-12 15:38:36 - Motor iniciado
+2024-12-12 15:41:59 - Motor iniciado
+2024-12-12 15:45:20 - Motor iniciado
+2024-12-12 15:45:31 - Motor detenido
+2024-12-12 15:46:34 - Motor iniciado
+2024-12-12 15:49:16 - Motor detenido
+2024-12-12 15:49:20 - Motor iniciado
+2024-12-12 15:49:26 - Motor detenido
+2024-12-12 15:49:29 - Motor iniciado
+2024-12-12 15:49:31 - Motor detenido
+2024-12-12 15:49:32 - Motor iniciado
+2024-12-12 15:49:32 - Motor detenido
+2024-12-12 15:49:33 - Motor iniciado
+2024-12-12 15:56:20 - Motor iniciado
+2024-12-12 15:56:24 - Motor iniciado
+2024-12-12 15:56:28 - Motor detenido
+2024-12-12 15:56:30 - Motor iniciado
+2024-12-12 15:56:35 - Motor detenido
+2024-12-12 15:56:36 - Motor detenido
+2024-12-12 15:56:41 - Motor iniciado
+2024-12-12 15:58:28 - Motor iniciado
+2024-12-12 15:58:39 - Motor detenido
+2024-12-12 15:59:57 - Motor iniciado
+2024-12-12 16:00:10 - Motor detenido
+2024-12-12 16:00:50 - Motor detenido
+2024-12-12 16:03:30 - Motor iniciado
+2024-12-12 16:03:37 - Motor detenido
+2024-12-12 16:03:38 - Motor iniciado
+2024-12-12 16:04:27 - Motor detenido
+2024-12-12 16:04:36 - Motor detenido
+2024-12-12 16:04:38 - Motor iniciado
+2024-12-12 16:04:41 - Motor detenido
+2024-12-12 16:04:41 - Motor iniciado
+2024-12-12 16:04:42 - Motor iniciado
+2024-12-12 16:04:43 - Motor detenido
+2024-12-12 16:05:04 - Motor iniciado
+2024-12-12 16:05:17 - Motor detenido
+2024-12-12 16:05:20 - Motor iniciado
+2024-12-12 16:05:21 - Motor iniciado
+2024-12-12 16:05:37 - Motor detenido
+2024-12-12 16:05:54 - Motor iniciado
+2024-12-12 16:06:24 - Motor detenido
+2024-12-12 16:06:37 - Motor iniciado
+2024-12-12 16:09:41 - Motor detenido
+2024-12-12 16:09:54 - Motor iniciado
+2024-12-12 16:10:13 - Motor detenido
+2024-12-12 16:10:29 - Motor iniciado
+2024-12-12 16:11:04 - Motor detenido
+2024-12-12 16:11:04 - Motor detenido
+2024-12-12 16:11:09 - Motor iniciado
+2024-12-12 16:11:44 - Motor detenido
+2024-12-12 16:11:47 - Motor iniciado
+2024-12-12 16:12:17 - Motor detenido
+2024-12-12 16:12:25 - Motor iniciado
+2024-12-12 16:13:00 - Motor detenido
+2024-12-12 16:13:03 - Motor iniciado
+2024-12-12 16:13:13 - Motor detenido
+2024-12-12 16:14:37 - Motor detenido
+2024-12-12 16:20:19 - Motor iniciado
+2024-12-12 16:21:21 - Motor detenido
+2024-12-12 16:21:24 - Motor detenido
+2024-12-12 16:21:33 - Motor iniciado
+2024-12-12 16:21:57 - Motor detenido
+2024-12-12 16:33:48 - Motor iniciado
+2024-12-12 16:33:50 - Motor iniciado
+2024-12-12 16:37:05 - Motor detenido
+2024-12-12 16:39:53 - Motor iniciado
+2024-12-12 16:39:57 - Motor iniciado
+2024-12-12 16:39:58 - Motor detenido
+2024-12-12 16:39:59 - Motor iniciado
+2024-12-12 16:39:59 - Motor detenido
+2024-12-12 16:40:06 - Motor detenido
+2024-12-12 16:40:18 - Motor iniciado
+2024-12-12 16:41:28 - Motor detenido
+2024-12-12 16:42:20 - Motor iniciado
+2024-12-12 16:42:25 - Motor detenido
+2024-12-12 16:42:35 - Motor iniciado
+2024-12-12 16:42:45 - Motor iniciado
+2024-12-12 16:42:54 - Motor detenido
+2024-12-12 16:42:55 - Motor detenido
+2024-12-12 16:43:22 - Motor iniciado
+2024-12-12 16:44:51 - Motor detenido
+2024-12-12 16:44:53 - Motor detenido
+2024-12-12 16:57:42 - Motor iniciado
+2024-12-12 16:57:44 - Motor iniciado
+2024-12-12 16:57:57 - Motor iniciado
+2024-12-12 16:57:59 - Motor iniciado
+2024-12-12 16:58:01 - Motor iniciado
+2024-12-12 16:58:18 - Motor detenido
+2024-12-12 16:58:18 - Motor detenido
+2024-12-12 16:58:18 - Motor detenido
+2024-12-12 16:58:19 - Motor detenido
+2024-12-12 16:58:20 - Motor detenido
+2024-12-12 16:58:21 - Motor detenido
+2024-12-12 16:58:22 - Motor detenido
+2024-12-12 16:58:23 - Motor detenido
+2024-12-12 16:58:32 - Motor iniciado
+2024-12-12 16:58:43 - Motor detenido
+2024-12-12 16:58:44 - Motor detenido
+2024-12-12 16:59:01 - Motor iniciado
+2024-12-12 17:00:11 - Motor detenido
+2024-12-12 17:10:01 - Motor iniciado
+2024-12-12 17:14:24 - Motor detenido
+2024-12-12 17:15:10 - Motor iniciado
+2024-12-12 17:15:11 - Motor iniciado
+2024-12-12 17:15:26 - Motor detenido
+2024-12-12 17:15:44 - Motor iniciado
+2024-12-12 17:16:55 - Motor detenido
+2024-12-12 17:16:56 - Motor detenido
+2024-12-12 17:24:49 - Motor iniciado
+2024-12-12 17:29:31 - Motor detenido
+2024-12-12 17:29:33 - Motor detenido
+2024-12-12 17:43:00 - Motor iniciado
+2024-12-12 17:45:50 - Motor detenido
+2024-12-12 17:48:14 - Motor detenido
+2024-12-12 17:48:16 - Motor iniciado
+2024-12-12 17:48:22 - Motor iniciado
+2024-12-12 17:48:26 - Motor iniciado
+2024-12-12 17:48:31 - Motor detenido
+2024-12-12 17:48:31 - Motor detenido
+2024-12-12 17:48:44 - Motor iniciado
+2024-12-12 17:49:09 - Motor iniciado
+2024-12-12 17:50:45 - Motor detenido
+2024-12-12 17:50:45 - Motor detenido
+2024-12-12 17:50:45 - Motor detenido
+2024-12-12 17:50:46 - Motor detenido
+2024-12-12 17:50:47 - Motor detenido
+2024-12-12 17:50:47 - Motor detenido
+2024-12-12 17:50:47 - Motor detenido
+2024-12-12 17:50:50 - Motor detenido
+2024-12-12 17:50:50 - Motor detenido
+2024-12-12 17:50:50 - Motor detenido
+2024-12-12 17:50:52 - Motor detenido
+2024-12-12 17:51:16 - Motor detenido
+2024-12-12 17:51:22 - Motor iniciado
+2024-12-12 17:51:25 - Motor iniciado
+2024-12-12 17:51:28 - Motor iniciado
+2024-12-12 17:51:34 - Motor detenido
+2024-12-12 17:51:34 - Motor detenido
+2024-12-12 17:51:34 - Motor detenido
+2024-12-12 17:51:45 - Motor iniciado
+2024-12-12 17:54:57 - Motor detenido
+2024-12-12 17:58:33 - UART desconectada: no se puede iniciar el motor.
+2024-12-12 17:58:39 - Motor iniciado
+2024-12-12 18:02:23 - Motor detenido
+2024-12-12 18:02:42 - Motor detenido
+2024-12-12 18:02:42 - Motor detenido
+2024-12-12 18:10:03 - Motor iniciado
+2024-12-12 18:10:10 - Motor iniciado
+2024-12-12 18:10:11 - Motor iniciado
+2024-12-12 18:11:10 - Motor detenido
+2024-12-12 18:11:11 - Motor detenido
+2024-12-12 18:11:15 - Motor iniciado
+2024-12-12 18:11:19 - Motor iniciado
+2024-12-12 18:11:23 - Motor iniciado
+2024-12-12 18:11:24 - Motor iniciado
+2024-12-12 18:11:45 - Motor detenido
+2024-12-12 18:31:45 - UART desconectada: no se puede detener el motor.
+2024-12-12 18:32:08 - Motor iniciado
+2024-12-12 18:32:37 - Motor detenido

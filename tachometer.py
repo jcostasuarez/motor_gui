@@ -35,7 +35,7 @@ class Tachometer(Widget):
                 Line(points=[x_outer, y_outer, x_inner, y_inner], width=1)
 
             # Draw real value fill (semi-transparent blue)
-            Color(0, 0, 1, 0.5)
+            Color(1, 0, 0, 1)
             step = 1
             points = [center_x, center_y]
             for rpm in range(0, int(self.real_value) + step, step):
@@ -43,8 +43,7 @@ class Tachometer(Widget):
                 radian = math.radians(angle)
                 x = center_x + radius * math.cos(radian)
                 y = center_y + radius * math.sin(radian)
-                points.extend([x, y])
-            Mesh(vertices=points, indices=list(range(len(points) // 2)), mode="triangle_fan")
+            Line(points=[center_x, center_y, x, y], width=2)
 
             # Draw configured value needle (blue)
             Color(0, 0, 1, 1)

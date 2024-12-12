@@ -4,18 +4,15 @@ from kivy.uix.button import Button
 from kivy.uix.spinner import Spinner
 from kivy.uix.textinput import TextInput
 from uart import UARTBackend
-
-# Colores utilizados en la interfaz
-PRIMARY_COLOR = (0.0, 0.32, 0.63, 1)  # Azul UTN
-TEXT_COLOR = (1, 1, 1, 1)             # Blanco
-
+from constants import *
 
 class UARTTab(BoxLayout):
-    def __init__(self, uart_backend, terminal_callback, **kwargs):
+    def __init__(self, uart_backend, terminal_callback, uart_label, **kwargs):
         super().__init__(orientation='vertical', spacing=10, padding=10, **kwargs)
 
         self.backend = uart_backend
         self.terminal_callback = terminal_callback
+        self.uart_label = uart_label
 
         # Indicador de estado de la conexión
         self.connection_status = Label(
@@ -102,6 +99,9 @@ class UARTTab(BoxLayout):
             self.backend.disconnect()
             self.connection_status.text = "Estado: Desconectado"
             self.connection_status.color = (1, 0, 0, 1)  # Rojo
+
+            self.uart_label.text = "Estado: Desconectado"
+            self.uart_label.color = (1, 0, 0, 1)  # Rojo
         else:
             port = self.port_selector.text
             baudrate = int(self.baud_input.text)
@@ -109,24 +109,25 @@ class UARTTab(BoxLayout):
                 self.connection_status.text = "Estado: Conectado"
                 self.connection_status.color = (0, 1, 0, 1)  # Verde
 
+                self.uart_label.text = "Estado: Conectado"
+                self.uart_label.color = (0, 1, 0, 1)  # Verde
+
+
     def send_command(self, instance):
         """Enviar un comando a través de UART usando send_command_with_response."""
-        command_input = self.command_input.text.strip()
+        command = self.command_input.text
 
         try:
             # Validar entrada del comando
-            if not command_input:
+            if not command:
                 self.response_label.text = "Error: Comando vacío"
                 return
 
-            # Convertir el comando a un entero (si es necesario)
-            command_id = int(command_input, 16) if len(command_input) <= 2 else None
-            if command_id is None or not (0 <= command_id <= 0xFF):
-                self.response_label.text = "Error: Comando inválido (debe ser 1 byte)"
-                return
+            # Only one byte
+            command = ord(command[0])
 
             # Enviar el comando y obtener la respuesta
-            response = self.backend.send_command_with_response(command_id)
+            response = self.backend.send_generic_command(command)
             self.response_label.text = f"Respuesta: {response.hex()}" if response else "Error: Sin respuesta"
         except ValueError:
             self.response_label.text = "Error: Entrada no válida"
